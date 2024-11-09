@@ -8,6 +8,15 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 face_model = InceptionResnetV1(pretrained='vggface2').eval().to(device)
 
 def get_embedding(face):
+    """
+    Extract a 512-dimensional face embedding from an input face image.
+
+    Args:
+        face (numpy.ndarray): Cropped face image as a BGR numpy array.
+
+    Returns:
+        numpy.ndarray: 512-dimensional face embedding.
+    """
     global face_model,device
     img = Image.fromarray(cv2.cvtColor(face, cv2.COLOR_BGR2RGB))
     preprocess = transforms.Compose([
