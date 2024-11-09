@@ -20,6 +20,6 @@ def get_embedding(face):
         embedding = face_model(img_tensor)  # Directly use the global face_model
     return embedding.squeeze().cpu().numpy()
 
-# face_crop_image=cv2.imread("face_crop.jpg")
+# face_crop_image=cv2.imread("crop_face.jpg")
 # embedding=get_embedding(face_crop_image)
 # print(embedding)
