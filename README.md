@@ -1,6 +1,6 @@
 # Extracting 512-Dimensional Face Embeddings with Facenet-PyTorch and CUDA Support
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NeuralFalconYT/facenet-pytorch-embedding/blob/main/Facenet_Pytorch_Embedding_CUDA.ipynb) <br>
-
+Learn More From [Official facenet-pytorch](https://github.com/timesler/facenet-pytorch) GitHub Page.
 
 ![crop_face](https://github.com/user-attachments/assets/9184a161-16db-435a-9e68-cd23ef6139c7)
 ```
